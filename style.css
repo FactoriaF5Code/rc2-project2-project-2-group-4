@@ -1,0 +1,18 @@
+:root{
+    --crema:#fff9ed;
+    --cremaOscuro:#ebd3bb;
+    --marronClaro: #a68073;
+    --granate: #800000;
+    --granateOscuro:#41040b;
+    --negro: #2a2a22;
+
+}
+.mapa{
+    width: ;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+}
