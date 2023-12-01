@@ -1,230 +1,212 @@
-:root{
-    --crema:#fff9ed;
-    --cremaOscuro:#ebd3bb;
-    --marronClaro: #a68073;
-    --granate: #800000;
-    --granateOscuro:#41040b;
-    --negro: #2a2a22;
-
+:root {
+  --crema: #fff9ed;
+  --cremaOscuro: #ebd3bb;
+  --marronClaro: #a68073;
+  --granate: #800000;
+  --granateOscuro: #41040b;
+  --negro: #2a2a22;
 }
-body{
-    background-color: var(--negro);
-}
-
-.container{
-    margin: 1rem;
-    width: 95vw;
-    height: 400px;
-     
+body {
+  background-color: var(--negro);
 }
 
-/*header*/
-header{
-    width: 100%;
-    height: 12rem;
-   top: 0%; 
-     
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    background-color: var(--negro);
-
-}
-.header_container{
-    padding-right: 4rem;
-    padding-top: 1rem;
-    
-   
-}
-.header_fondo{
-    width:55rem ;
-    height: 10rem;    
-    z-index: 0;
-    
-}
-
-.header_nombre{
-    
-    text-transform: uppercase;
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
-	color: var(--cremaOscuro);
-	font-size: 30px;   
-    z-index: 1;
-    top: 3.6rem;
-    position: absolute;
-    margin-left: 7rem;
-    
-    
-
-}
-
-.nav_principal{
-    font-size: 1rem;
-    align-self: flex-end;
-    margin-left: 10rem;
-    
-}
-a{
-    color: var(--cremaOscuro);
-    text-decoration: none;
-    text-transform: uppercase;   
-    margin-right: 2rem;
-    font-weight: bold;
-    
+.container {
+  margin: 1rem;
+  width: 95vw;
+  height: 380px;
+ 
 }
 
 
-.libreria{
-background-color:var(--crema);
-height: 600px;
-display: flex;
-justify-content: center;
-align-items: end;
+header {
+  width: 100%;
+  height: 13rem;
+  top: 0%;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: var(--negro);
 }
-.libreria h2{
-    color: #2a2a22;
-    font-size: 2rem;
-    text-align: center;
-    text-transform: uppercase;
+
+.header_container {
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+.header_fondo {
+  width: 55rem;
+  height: 10rem;
+  z-index: 0; 
+  border-radius: 15px 15px;
+  padding-top: 1rem;
+}
+
+.header_nombre {
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,
+    0 0 92px #0fa;
+  color: var(--cremaOscuro);
+  font-size: 30px;
+  z-index: 1;
+  top: 3.6rem;
+  position: absolute;
+  margin-left: 7rem;
+}
+
+.nav_principal {
+  font-size: 1rem;
+  align-self: flex-end;
+  margin-left: 10rem;
+ 
   
 }
-.libreria p{
-    color: #2a2a22;
-    font-size: 1rem;
-}
-.libreria_text{
-    width: 80%;
-    margin-bottom: 4rem;
-}
-.libreriaMapa{
-background-color: var(--negro);
-background: linear-gradient(180deg, rgba(42,42,34,1) 0%, rgba(42,42,34,0.7) 60%);
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-justify-content: center;
-
-
-}
-.mapa{
- margin-top: 1rem;
- width: 100%;
-
-
-
-
-    
-
-    
-    
-}
-.mapa_img{
-    width: 251.5px;
-    height: 182px;
-}
-.mapa_text .mapa_explicación{
-    position: absolute;
-    text-align: center;
-
+a {
+  color: var(--cremaOscuro);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 2rem;
+  font-weight: bold;
+  
 }
 
 
-
-.eventos{
-    background-color: var(--granate);
+.libreria {
+  background-color: var(--crema); 
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
 }
-.libreriaMapa{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-content: center;
+.libreria h2 {
+  color: #2a2a22;
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.libreria p {
+  color: #2a2a22;
+  font-size: 1rem;
+}
+.libreria_text {
+  width: 80%;
+  margin-bottom: 4rem;
+}
+.libreriaMapa {
+  background-color: var(--negro);
+  background: linear-gradient(
+    180deg,
+    rgba(42, 42, 34, 1) 0%,
+    rgba(42, 42, 34, 0.7) 60%
+  );
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  justify-content: center;
+}
+.mapa {
+  
+  width: 100%;
+}
+.mapa_img {
+  width: 251.5px;
+
+}
+.mapa_text .mapa_explicación {
+  position: absolute;
+  text-align: center;
+}
+
+.eventos {
+  background-color: var(--granate);
+
+}
+.libreriaMapa {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  height: 380px;
 }
 .seresMagicos {
-    background-color: var(--cremaOscuro);
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+  background-color: var(--cremaOscuro);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 14rem;
 }
-  .card {
-    position: relative;
-    width: 200px;
-    height: 300px;
-    border-radius: 5px;
-    background: #800000;
-    overflow: hidden;
-    transition: 0.5s;
-    margin-top: 2rem;
-  }
-  
-  .card:hover .description-card{
-    top: 0;
-  }
-  .card:hover {
-    box-shadow: 0 5px rgba(3, 89, 92, 5);
-    transform: translateY(-15px);
-  }
-  
-  .head-card {
-    height: 125px;
-    width: 100%;
-    position: relative;
-  }
-  
-  .circle {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background: #fff9ed;
-    bottom: 0;
-  }
-  .img-circle {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background: white;
-    padding: 5px;
-    border-radius: 50%;
-    bottom: -30%;
-    left: 50%;
-    transform: translate(-50%);
-  }
-  .img-circle img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  .description-card {
-    height: 200px;
-    padding: 40px 20px 20px 20px;
-    
-    text-align: center;
-    position: absolute;
-      z-index: 1;
-      top: 100%;
-      padding: 15px 20px;
-      -webkit-transition: 0.15;
-      -moz-transition: 0.1s;
-      -ms-transition: 0.1s;
-      -o-transition: 0.1s;
-      transition: 0.1s;
-      background-color: #800000;
-  }
-  .img-circle h3 {
-    color: #ebd3bb;
-  }
-  .description-card p {
-    color: #ebd3bb;
-    font-size: 12px;
-  }
-  
-  
-  
-  
-    
-   
+.card {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  background: #800000;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 2rem;
+}
 
+.card:hover .description-card {
+  top: 0;
+}
+.card:hover {
+  box-shadow: 0 5px rgba(3, 89, 92, 5);
+  transform: translateY(-15px);
+}
+
+.head-card {
+  height: 125px;
+  width: 100%;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: #fff9ed;
+  bottom: 0;
+}
+.img-circle {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: white;
+  padding: 5px;
+  border-radius: 50%;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.img-circle img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.description-card {
+  height: 200px;
+  padding: 40px 20px 20px 20px;
+
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  padding: 15px 20px;
+  -webkit-transition: 0.15;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s;
+  background-color: #800000;
+}
+.img-circle h3 {
+  color: #ebd3bb;
+}
+.description-card p {
+  color: #ebd3bb;
+  font-size: 12px;
+}
