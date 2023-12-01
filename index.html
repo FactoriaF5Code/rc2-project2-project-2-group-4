@@ -3,21 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    ><link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleSlider.css">
+    <link href=" https://fonts.cdnfonts.com/css/vtks-sabonete " rel="hoja de estilo">
     <title>El Refugio de los Libros Encantados</title>
 </head>
 <body>
 <main>
-    <div class="slide">
-        
-        <div class="content">
-            <div class="firstslide"><h1 class="textSlide"><a class="aSlide" href="index.html">C de Calle</a></h1></div>
-            <div class="secondslide"><h1 class="textSlide"><a class="aSlide" href="musicos.html">Músicos</a></h1></div>
-            <div class="thirdslide"><h1 class="textSlide"><a class="aSlide" href="videos.html">Videos</a></h1></div>
-            <div class="fourthslide"><h1 class="textSlide"><a class="aSlide" href="colabora.html">Colabora</a></h1></div>
+    <div class="slider">
+
+        <input type="radio" name="slider" id="slider_one" checked>
+        <input type="radio" name="slider" id="slider_two">
+        <input type="radio" name="slider" id="slider_three">
+
+
+        <div class="slider_buttons">
+            <label for="slider_one"></label>
+            <label for="slider_two"></label>
+            <label for="slider_three"></label>
+            
         </div>
-        
-    </div>
+
+        <div class="slider_content">
+            <div class="slider_first">            
+                <h2>El refugio de los libros encantados</h2>
+                <img class="slider_img slider_first--img" src="img/libreria.jpg">
+                
+        </div>
+            <div class="slider_second">
+                
+                <p><span>C</span>uando uno quiere soñar sueña</p>
+                <p><span>A</span> veces no es facil entrar en el mundo de los sueños</p>
+                <p><span>T</span>odo lo que tiene que hacer uno, es buscar la entrada</p>
+            </div>
+            <div class="slider_third">
+                <a class="slider_boton" href="tienda.html"></a>            
+            <img class="slider_img slider_third--img" src="img/PORTADA CON GATO ESQUINA.jpg">
+            </div>
+            
+        </div>
+
+    </div><!--Slider-->
 </main>
     
 </body>

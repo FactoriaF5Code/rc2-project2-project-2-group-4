@@ -1,39 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    >
     <link rel="stylesheet" href="style.css">
     <title>El Refugio de los Libros Encantados</title>
 </head>
-
 <body>
     <header>
-        <img class="logo" src="img/logo.jpg">
-        <nav class="nav_principal">
-            <a href="#"> General</a>
-            <a href="#"> Nosotros</a>
-            <a href="#"> Mapa libreria</a>
-            <a href="#"> Eventos</a>
-        </nav>
+    <img class="logo" src="img/logo.jpg">
+    <div class="header_container" >
+        <img class="header_fondo" src="img/fondo rojo.png" alt="">
+    <h1 class="header_nombre">El refugio de los libros encantados</h1>
+    <nav class="nav_principal">
+        <a href="#"> index</a>
+        <a href="#libreria"> libreria</a>
+        <a href="#mapa"> mapa</a>
+        <a href="#seresMagicos"> seres mágicos</a>
+        <a href="#eventos"> eventos</a>
+    </nav>
+    </div>
     </header>
-    <main>
-        <section class="general container"></section>
-    </main>
-    <section class="libreriaMapa container">
-        <div class="mapa">
-            <img class="mapa_img" src="img/mapa.jpg" alt="">
+    <main>    
+    <section id="libreria" class="libreria container">
+        <div class="libreria_text">
+            <h2>La libreria</h2>
+            <p>¿Una  libreria  mAgica?  ¿QuiÉn  no  ha 
+                soñado  alguna  vez  con  ir  a    una 
+                libreria  mÁgica?  Un  lugar  lleno  de 
+                libros,  de  historias  por  descubrir, 
+                de    colores  que  emocionan  los 
+                sentidos.
+                  Probablemente  muchos  de 
+                nosotros,  ¿verdad?  Ya  que  para  los 
+                amantes  de  los  libros  en  general  y 
+                de  los  cuentos  infantiles,  en 
+                particular,  El  Refugio  de  los 
+                Libros  Encantados,  es  un  lugar 
+                mágico.  
+                Un  espacio  donde  te  permite 
+                viajar  a  muchos  lugares,  donde  la 
+                imaginación  es  tu  aliada  y  la  magia 
+                surge en cada lectura</p>
+                <div>
+                    <h2>Nuestra Historia</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos eos beatae in doloribus quia suscipit veniam, distinctio accusantium sed perspiciatis iure omnis officiis soluta dolorem? Ad ut cum facere excepturi.</p>
+                    
+                </div>
         </div>
+
+        </div>
+    </section>
+    </main>
+    <section id="mapa" class="libreriaMapa container">
+        <div class="mapa">
+                
+                    <img class="mapa_img mapa_img--uno" src="img/mapa1.jpg" alt="">
+                    
+                    <img class="mapa_img mapa_img--dos" src="img/mapa 2.jpg" alt="">                
+                   
+                    <img class="mapa_img mapa_img--tres" src="img/mapa3.jpg" alt="">
+                    
+                    <img class="mapa_img mapa_img--cuatro" src="img/mapa4.jpg" alt="">
+                    
+                
+        </div>        
     </section><!--Fin  clase libreria-->
-    <section class="seresMagicos-container">
+    <section id="seresMagicos" class="seresMagicos container">
         <!--Casper-->
         <div class="card">
             <div class="head-card">
                 <div class="circle"></div>
                 <div class="img-circle">
-                    <img src="img/images siri2.jpg" alt="siri2">
+                    <img src="img/images siri2.jpg" alt="Casper el Libroviajero">
                     <h3> Casper el Libroviajero</h3>
                 </div>
             </div>
@@ -54,7 +93,7 @@
             <div class="head-card">
                 <div class="circle"></div>
                 <div class="img-circle">
-                    <img src="img/ser magico 2.jpg" alt="siri2">
+                    <img src="img/ser magico 2.jpg" alt="Lumina, la Sibila de los Libros">
                     <h3> Lumina, la Sibila de los Libros</h3>
             </div>
         </div>
@@ -76,7 +115,7 @@
                 <div class="head-card">
                     <div class="circle"></div>
                     <div class="img-circle">
-                        <img src="img/ser magico 3.jpg" alt="siri2">
+                        <img src="img/ser magico 3.jpg" alt="Aurelia Páginas Encantadas">
                         <h3> Aurelia Páginas Encantadas</h3>
                     </div>
                 </div>
@@ -94,11 +133,10 @@
                 </div>
             </div>
     </section><!--Fin  clase seresMagicos-->
-    <section class="eventos container">
+    <section id="eventos" class="eventos container">
 
     </section><!--Fin  clase eventos-->
     <footer></footer>
-
+    
 </body>
-
 </html>
