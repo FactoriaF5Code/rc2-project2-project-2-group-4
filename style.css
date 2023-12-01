@@ -8,6 +8,7 @@
 }
 body {
   background-color: var(--negro);
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -263,4 +264,14 @@ height: 8rem;
 .eventos_display{
   display: flex;
   justify-content: space-around;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+footer h4{
+  color: var(--cremaOscuro);
+}
+footer p{
+  color:var(--crema)
 }

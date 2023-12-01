@@ -9,6 +9,7 @@
 }
 body{
     background-color: var(--negro);
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .slider_enlace{
